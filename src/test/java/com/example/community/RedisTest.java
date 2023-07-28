@@ -43,7 +43,14 @@ public class RedisTest {
         System.out.println(redisTemplate.opsForList().index(redisKey, 0));
         System.out.println(redisTemplate.opsForList().range(redisKey, 0, 2));
 
+        System.out.println(redisTemplate.opsForList().leftPop(redisKey));
+        System.out.println(redisTemplate.opsForList().leftPop(redisKey));
+        System.out.println(redisTemplate.opsForList().leftPop(redisKey));
     }
 
+    @Test
+    public void testSet(){
+        
+    }
 
 }
