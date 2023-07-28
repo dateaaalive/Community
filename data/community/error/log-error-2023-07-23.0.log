@@ -1,3 +1,0 @@
-2023-07-23 20:32:06,684 ERROR [main] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] An incompatible version [1.2.12] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
-2023-07-23 20:45:06,610 ERROR [main] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] An incompatible version [1.2.12] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
-2023-07-23 21:47:03,281 ERROR [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] An incompatible version [1.2.12] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
