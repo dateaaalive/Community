@@ -1,10 +1,10 @@
 HELP.md
 target/
+data/
+*.properties
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-*.properties
-data/
 .mvn/
 mvnw*
 
