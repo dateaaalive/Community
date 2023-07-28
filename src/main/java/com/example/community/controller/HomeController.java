@@ -22,7 +22,7 @@ public class HomeController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = "/index", method = RequestMethod.GET)
+    @RequestMapping(value = {"/index", "/"}, method = RequestMethod.GET)
     public String getIndexPage(Model model, Page page){
 
         page.setRows(discussPostService.findDiscussPostRows(0));
