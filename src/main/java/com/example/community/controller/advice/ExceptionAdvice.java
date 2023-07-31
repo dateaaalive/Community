@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@ControllerAdvice(annotations = Controller.class)
+//@ControllerAdvice(annotations = Controller.class)
 public class ExceptionAdvice {
 
     private static final Logger logger = LoggerFactory.getLogger(ExceptionAdvice.class);
 
-    @ExceptionHandler(Exception.class)
+//    @ExceptionHandler(Exception.class)
     public void handlerException(Exception e, HttpServletRequest request, HttpServletResponse response) throws IOException {
         logger.error("服务器发生异常："+e.getMessage());
         for(StackTraceElement element: e.getStackTrace()){

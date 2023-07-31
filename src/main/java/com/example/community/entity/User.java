@@ -14,6 +14,10 @@ public class User {
         this.createTime = createTime;
     }
 
+    public Date getCreateTime() {
+        return createTime;
+    }
+
     @Override
     public String toString() {
         return "User{" +
